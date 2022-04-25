@@ -106,3 +106,15 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `docker search` | Buscar imagenes: | docker search ubuntu |
 | `docker pull` | Instalar Imagenes | docker pull ubuntu |
 | `sudo docker images` | Ver imágenes instaladas | nginx alpine 51696c87e77e 2 weeks ago 23.4MB |
+|--------|Semana 11|--------| 
+|Commandos|Descripción|Ejemplos|
+|--------|-----------|-------|
+| `scp ` | Administración de archivos y carpetas | scp archivo.pdf agarrob386@127.0.0.1:/home/agarrob386/Documentos/archivo.pdf |
+| `curl` | Hacer request a páginas Web | curl -X GET -L https://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre |
+| `git clone` | Clonar repositorios de Github | git clone https://github.com/garrobaf03/comandos-linux/blob/main/README.md |
+| `wget` | Bajar archivos de un URL | wget https://wordpress.org/latest.zip |
+| `more` | Archivos | ls -l / -R | more |
+| `find` | Búsqueda | find /home/agarrob386/ -name archivo.txt |
+| `netstat` | Networking | netstat -ltp |
+| `df -h` | Admin Disco | df -h |
+| `ocrfeeder` | Utilitarios | ocrfeeder |
