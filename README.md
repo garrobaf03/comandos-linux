@@ -67,3 +67,25 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `./script.sh` / | Ejecutarlo scripts | bash script.sh |  |
 | `echo` | Imprimir | echo "Hello World" |
 | `#!/bin/bash` | Inicio de scripts en bash: shebang | ------------- |
+# Comandos Manjaro
+|Commandos|Descripción|Ejemplos|
+|--------|-----------|-------|
+|`pacman`|Administrador de paquetes para distribuciones basadas en Arch| `sudo pacman -Syuu`|
+|`useradd`|Crea un nuevo usuario que incluye un directorio de inicio personal| `sudo useradd -m newUser -G wheel -p 123456`|
+|`touch`|Crea un nuevo archivo| `touch file.txt`|
+|`mkdir`|Crea un nuevo directorio| `mkdir newDir`|
+|`rmdir`|Elimina el directorio especificado| `rmdir -rf newDir`|
+|`tree`|muestra una lista en forma de árbol del directorio y subdirectorios actuales| `tree`|
+|`ls`|Enumera el archivo en la ruta especificada| `ls -l /bin/`|
+|`cat`|Imprime el contenido de un archivo dado| `cat file.txt`|
+|`mv`|Mueve un archivo dado a la ruta especificada, también se puede usar para renombrar| `mv file.txt /bin/`|
+|`grep`|Útil para buscar dentro de archivos| `grep -rin "log" /home/*`|
+|`ps`|Imprime los procesos actuales| `ps -A`|
+|`chmod`|Cambia los permisos para el archivo o directorio dado| `chmod 777 file.txt`|
+|`su`|Si se da un usuario, cambia a él, si no, cambia al usuario root| `su - newUser`|
+|`pkill`|Mata el proceso dado| `sudo pkill colord`|
+|`history`|Imprime todos los comandos usados hasta ahora en la terminal| `history`|
+|`ln`|Crea un enlace duro con el nombre dado al archivo dado. (si se usa -s, crea un enlace suave) | `ln -s /var/log/pacman.log ~/pacman.log`|
+|`crontab`|Permite configurar el Daemon crontab| `crontab -e`|
+|`nano`|Editor de texto en la terminal| `nano file.txt`|
+|`vim`|Editor de texto en la terminal| `vim file.txt`|
