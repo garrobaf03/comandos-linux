@@ -67,7 +67,7 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `./script.sh` / | Ejecutarlo scripts | bash script.sh |  |
 | `echo` | Imprimir | echo "Hello World" |
 | `#!/bin/bash` | Inicio de scripts en bash: shebang | ------------- |
-# Comandos Manjaro
+|Manjaro|
 |Commandos|Descripción|Ejemplos|
 |--------|-----------|-------|
 |`pacman`|Administrador de paquetes para distribuciones basadas en Arch| `sudo pacman -Syuu`|
