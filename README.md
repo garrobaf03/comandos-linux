@@ -1,4 +1,4 @@
-# comandos-linux
+# Comandos Linux Repositorio Github
 Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | Comando | Descripción | Ejemplos de uso |
 | ------------- | ------------- | ------------- | 
