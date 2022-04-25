@@ -88,3 +88,21 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 |`crontab`|Permite configurar el Daemon crontab| `crontab -e`|
 |`nano`|Editor de texto en la terminal| `nano file.txt`|
 |`vim`|Editor de texto en la terminal| `vim file.txt`|
+|--------|Docker|--------| 
+|Commandos|Descripción|Ejemplos|
+|--------|-----------|-------|
+| `sudo apt-get update` | Actualizar paquetes | sudo apt-get update |
+| `sudo apt-get` | Instalar paquetes necesarios | sudo apt-get install apt-transport-https ca-certificates curl    gnupg-agent software-properties-common |
+| `curl`  | Agregar la clave GPG oficial de Docker | sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" |
+| `dpkg -t [nombre]` | Instalar paquetes | dpkg -t [nombre] |
+| `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose` | Instalamos docker | sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose |
+| `sudo usermod` | Usar Docker sin sudo | sudo usermod -aG docker ${USER} |
+| `su - ${USER}` | Usar Docker sin sudo | su - ${USER} |
+| `sudo docker run` | Validamos funcionamiento | sudo docker run hello-world |
+| `sudo systemctl start docker` | Iniciar el Daemon | sudo systemctl start docker |
+| `sudo systemctl enable docker` | Iniciar el Daemon | sudo systemctl enable docker |
+| `sudo usermod -aG docker ${USER}` | Para usar docker sin sudo | sudo usermod -aG docker ${USER} |
+| `su - ${USER}` | Para usar docker sin sudo | su - ${USER} |
+| `docker search` | Buscar imagenes: | docker search ubuntu |
+| `docker pull` | Instalar Imagenes | docker pull ubuntu |
+| `sudo docker images` | Ver imágenes instaladas | nginx alpine 51696c87e77e 2 weeks ago 23.4MB |
