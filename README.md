@@ -36,7 +36,6 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `ping [IP]` | Hacer ping de alguna maquina | ping 172.20.0.1 |
 | `mkdir` |  Crear directorios | mkdir --help |
 | `ps -aux / top / pstree` | Ver procesos, con parámetro -aux se ven procesos activos.  | ------------- |
-| | | Concatenar comandos | ------------- |
 | `grep [nombre]` | Buscar  | grep Downloads |
 | `kill` | Matar procesos | kill -9 $PID |
 | `whoami` | Ver qué usuario está usando el sistema | ------------- |
@@ -67,7 +66,7 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `./script.sh` / | Ejecutarlo scripts | bash script.sh |  |
 | `echo` | Imprimir | echo "Hello World" |
 | `#!/bin/bash` | Inicio de scripts en bash: shebang | ------------- |
-|Manjaro|
+|--------|Manjaro|--------| 
 |Commandos|Descripción|Ejemplos|
 |--------|-----------|-------|
 |`pacman`|Administrador de paquetes para distribuciones basadas en Arch| `sudo pacman -Syuu`|
