@@ -26,3 +26,44 @@ Este es un repositorio de comandos de Linux del curso de Sistemas Operativos
 | `telnet` | Logra una comunicación interactiva con otro host | Mediante el protocolo TELNET, se logra una conexión desde un host a otro|
 | `ps -aux` | Muestra todos los procesos pertenecientes al usuario | Mediante el comando "ps -aux u", se utiliza el formato orientado al usuario|
 | `openssh`| Conecta la máquina virtual a un servidor | Para cambiar el puerto que se utiliza para estar conectado al servidor, usamos el comando "openssh port (número de puerto que desea usar)" |
+|  `pwd` | Para ver ruta en la que se encuentra | Ejecutamos “pwd” y se despliega /home/agarrob386 |
+| `apt-get update` | Actualizar repositorios  | ------------- |
+| `sudo` | Dar permisos de super usuario a cualquier comando | ------------- |
+| `apt install / snap` | Instalar software desde repositorios | ------------- |
+|  `apt search` | Revisar posibilidades de comandos o software | `apt search root` |
+| `ip addr` | Ver datos de red | ip addr y se despliega 127.0.0.1 |
+| `nmap [IP]` | Ver IP de maquina | nmap 172.20.0.1 |
+| `ping [IP]` | Hacer ping de alguna maquina | ping 172.20.0.1 |
+| `mkdir` |  Crear directorios | mkdir --help |
+| `ps -aux / top / pstree` | Ver procesos, con parámetro -aux se ven procesos activos.  | ------------- |
+| | | Concatenar comandos | ------------- |
+| `grep [nombre]` | Buscar  | grep Downloads |
+| `kill` | Matar procesos | kill -9 $PID |
+| `whoami` | Ver qué usuario está usando el sistema | ------------- |
+| `sudo su / sudo -i / su root` | Entrar como superusuario root | ------------- |
+| `sudo passwd [usuario]` | Restablecer contraseñas | ------------- |
+| `touch` | Crear archivos  | touch --help |
+| `vim / nano` | Editar archivos de texto | ------------- |
+| `ls -l` | Enlistar lo que contiene el directorio actual | ------------- |
+| `cat / more / less` | Mostrar contenido del archivo | ------------- |
+| `cat /etc/passwd` | Ver usuarios y datos | ------------- |
+| `sudo dmidecode --type 17` | Ver datos de la memoria: | ------------- |
+| `for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file; done | sort -k 2 -n -r | less` | Comando para recorrer procesos actuales y leer cuantos KB/s usa cada uno | ------------- |
+| `free -h` | Comando para leer memoria disponible | ------------- |
+| `swapon` | Comando para dar prioridad a la memoria swap | ------------- |
+|  `cat /proc/sys/vm/swappiness` | Comando Swampiness: editar # de cuanto porcentaje de memoria usa en RAM  | ------------- |
+| `df -h` |  Ver detalles de directorios | ------------- |
+|  `du -h archivo.png` | Ver tamaño de archivo | ------------- |
+| `stat mapa.png` | Ver fecha de creación, último acceso | ------------- |
+| `file bus 1.png` | Tipo de archivo | ------------- |
+| `chown user1 bus.png` | Propietario y grupo, lista de permisos. Cambio de propietario, otorgar permisos. | ------------- |
+| `df -h`  | Mostrar el espacio en disco usado  | udev  1,1G   0   1,1G    0%  /dev |
+| `/etc/fstab` / mount /dev/cdrom /mnt | Montaje de dispositivos en el sistema de archivos | ------------- |
+| `gparted` | Administra las particiones | /dev/sda5 |
+| `bash --version` | Ver version de bash | ------------- |
+| `echo $SHELL` | Ver ubicación de los intérpretes  | ------------- |
+| `cat /etc/shells` | Ver todos los shells instalados | ------------- |
+| `chsh -s /bin/zsh` | Cambiar bash a ksh | ------------- |
+| `./script.sh` / | Ejecutarlo scripts | bash script.sh |  |
+| `echo` | Imprimir | echo "Hello World" |
+| `#!/bin/bash` | Inicio de scripts en bash: shebang | ------------- |
